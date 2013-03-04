@@ -9,7 +9,7 @@ class AirportController {
 	def getJson() {
 		def airport = null
 		if (params.iata) {
-			airport = Airport.findByIata(params.iata)
+			airport = Airport.findByIata(params.iata.toUpperCase())
 		}
 		if (!airport) {
 			airport = new Airport(id:-1, iata:params.iata, name:'Not found')
@@ -19,7 +19,7 @@ class AirportController {
 	
 	def geocode() {
 		if (params.iata) {
-			render geoService.geocodeAirport(params.iata) as JSON
+			render geoService.geocodeAirport(params.iata.toUpperCase()) as JSON
 		}
 		render '{}'
 	}
