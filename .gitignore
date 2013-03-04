@@ -10,8 +10,8 @@
 #  e.g. "foobar.launch" (no slash)
 #
 .classpath
-.project
 .settings
+bin
 
 # project temps
 target/*
