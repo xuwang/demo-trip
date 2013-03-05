@@ -1,5 +1,7 @@
 package org.demo.trip
 
 class AirlineController {
-	static scafford = true
+	
+	static scaffold = Airline
+	
 }

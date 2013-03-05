@@ -3,7 +3,7 @@ import grails.converters.*
 
 class AirportController {
 
-    static scaffold = true
+    static scaffold = Airport
 	def geoService
 	
 	def getJson() {
