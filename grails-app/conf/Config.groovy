@@ -70,7 +70,7 @@ environments {
         // TODO: grails.serverURL = "http://www.changeme.com"
 
 		// api-key for google map, this surely not working, get your own!
-		google.map.api.key = "AIzaSyCrjR2di-VkMVBbObE_DvoHoibojn5ZY8"
+		google.map.api.key = "AIzaSyCrjR2di-VkMVBbObE_DvoHoibojn5ZY8s"
     }
 }
 
