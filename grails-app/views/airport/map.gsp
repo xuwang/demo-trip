@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Airports</title>
-    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyCrjR2di-VkMVBbObE_DvoHoibojn5ZY8s"
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=${key}"
       type="text/javascript"></script>
     <script type="text/javascript">
     var usCenterPoint = new GLatLng(39.833333, -98.583333)

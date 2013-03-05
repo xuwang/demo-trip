@@ -62,10 +62,15 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+		// api-key for google map, you may need to use your own
+		google.map.api.key = "AIzaSyCrjR2di-VkMVBbObE_DvoHoibojn5ZY8s"
     }
     production {
         grails.logging.jul.usebridge = false
         // TODO: grails.serverURL = "http://www.changeme.com"
+
+		// api-key for google map, this surely not working, get your own!
+		google.map.api.key = "AIzaSyCrjR2di-VkMVBbObE_DvoHoibojn5ZY8"
     }
 }
 

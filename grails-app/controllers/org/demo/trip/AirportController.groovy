@@ -25,7 +25,8 @@ class AirportController {
 	}
 	
 	def map() {
-		render(view:'map3', model:[airportList: Airport.list()])
+		def key = grailsApplication.config.google.map.api.key
+		render(view:'map3', model:[key: key, airportList: Airport.list()])
 	}
 	
 	def update() {
