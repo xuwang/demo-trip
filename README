@@ -2,7 +2,7 @@ This is the a simple grails demo.
 
 It is a grails exercise based on https://www.ibm.com/developerworks/java/library/j-grails05208 
 
-To see the airports you created, goto http://localhost:8080/demo-trip/airport/map
+To see the airports you created marked on the google map, goto http://localhost:8080/demo-trip/airport/map
 
 If google map complains about the api key, you may need to get one from https://code.google.com/apis/console
 and set 
