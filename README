@@ -1,6 +1,5 @@
-This is a simple grails demo.
-
-It is a grails exercise based on https://www.ibm.com/developerworks/java/library/j-grails05208 
+This is a simple grails demo that is based on 
+https://www.ibm.com/developerworks/java/library/j-grails05208 
 
 To see the airports you created marked on the google map, goto http://localhost:8080/demo-trip/airport/map
 
