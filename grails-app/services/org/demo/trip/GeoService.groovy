@@ -1,4 +1,4 @@
-package com.jenna.trip
+package org.demo.trip
 
 import groovy.json.JsonSlurper
 
